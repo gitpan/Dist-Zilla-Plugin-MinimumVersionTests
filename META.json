@@ -1,0 +1,37 @@
+{
+   "resources" : {
+      "repository" : "http://github.com/hanekomu/Dist-Zilla-Plugin-MinimumVersionTests"
+   },
+   "generated_by" : "Dist::Zilla version 1.100660",
+   "meta-spec" : {
+      "version" : 1.4,
+      "url" : "http://module-build.sourceforge.net/META-spec-v1.4.html"
+   },
+   "version" : "1.100700",
+   "name" : "Dist-Zilla-Plugin-MinimumVersionTests",
+   "author" : [
+      "Marcel Gruenauer <marcel@cpan.org>"
+   ],
+   "license" : "perl",
+   "build_requires" : {},
+   "provides" : {
+      "Dist::Zilla::Plugin::MinimumVersionTests" : {
+         "version" : "1.100700",
+         "file" : "lib/Dist/Zilla/Plugin/MinimumVersionTests.pm"
+      }
+   },
+   "requires" : {
+      "English" : "0",
+      "Test::More" : "0",
+      "perl" : "5.008",
+      "File::Find" : "0",
+      "File::Temp" : "0",
+      "Test::MinimumVersion" : "0",
+      "Moose" : "0",
+      "Dist::Zilla::Plugin::InlineFiles" : "0"
+   },
+   "abstract" : "release tests for minimum required versions",
+   "configure_requires" : {
+      "ExtUtils::MakeMaker" : "6.11"
+   }
+}
