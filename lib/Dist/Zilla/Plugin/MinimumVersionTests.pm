@@ -3,10 +3,11 @@ use strict;
 use warnings;
 
 package Dist::Zilla::Plugin::MinimumVersionTests;
-our $VERSION = '1.100700';
-# ABSTRACT: release tests for minimum required versions
+BEGIN {
+  $Dist::Zilla::Plugin::MinimumVersionTests::VERSION = '1.101420';
+}
+# ABSTRACT: Release tests for minimum required versions
 use Moose;
-use Test::MinimumVersion;
 extends 'Dist::Zilla::Plugin::InlineFiles';
 
 __PACKAGE__->meta->make_immutable;
@@ -20,11 +21,11 @@ no Moose;
 
 =head1 NAME
 
-Dist::Zilla::Plugin::MinimumVersionTests - release tests for minimum required versions
+Dist::Zilla::Plugin::MinimumVersionTests - Release tests for minimum required versions
 
 =head1 VERSION
 
-version 1.100700
+version 1.101420
 
 =head1 SYNOPSIS
 
@@ -35,7 +36,7 @@ In C<dist.ini>:
 =head1 DESCRIPTION
 
 This is an extension of L<Dist::Zilla::Plugin::InlineFiles>, providing the
-following files
+following file:
 
   xt/release/minimum-version.t - a standard Test::MinimumVersion test
 
@@ -45,6 +46,25 @@ __END__
 =head1 INSTALLATION
 
 See perlmodinstall for information and options on installing Perl modules.
+
+=head1 BUGS AND LIMITATIONS
+
+No bugs have been reported.
+
+Please report any bugs or feature requests through the web interface at
+L<http://rt.cpan.org/Public/Dist/Display.html?Name=Dist-Zilla-Plugin-MinimumVersionTests>.
+
+=head1 AVAILABILITY
+
+The latest version of this module is available from the Comprehensive Perl
+Archive Network (CPAN). Visit L<http://www.perl.com/CPAN/> to find a CPAN
+site near you, or see
+L<http://search.cpan.org/dist/Dist-Zilla-Plugin-MinimumVersionTests/>.
+
+The development version lives at
+L<http://github.com/hanekomu/Dist-Zilla-Plugin-MinimumVersionTests/>.
+Instead of sending patches, please fork this project using the standard git
+and github infrastructure.
 
 =head1 AUTHOR
 
