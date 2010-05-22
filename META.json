@@ -24,7 +24,7 @@
    "provides" : {
       "Dist::Zilla::Plugin::MinimumVersionTests" : {
          "file" : "lib/Dist/Zilla/Plugin/MinimumVersionTests.pm",
-         "version" : "1.101420"
+         "version" : "1.101421"
       }
    },
    "recommends" : {},
@@ -37,8 +37,8 @@
    "resources" : {
       "bugtracker" : "http://rt.cpan.org/Public/Dist/Display.html?Name=Dist-Zilla-Plugin-MinimumVersionTests",
       "homepage" : "http://search.cpan.org/dist/Dist-Zilla-Plugin-MinimumVersionTests/",
-      "repository" : "origin"
+      "repository" : "http://github.com/hanekomu/Dist-Zilla-Plugin-MinimumVersionTests"
    },
-   "version" : "1.101420"
+   "version" : "1.101421"
 }
 

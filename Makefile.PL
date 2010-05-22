@@ -28,7 +28,7 @@ my %WriteMakefileArgs = (
                                            },
                        'ABSTRACT' => 'Release tests for minimum required versions',
                        'EXE_FILES' => [],
-                       'VERSION' => '1.101420',
+                       'VERSION' => '1.101421',
                        'PREREQ_PM' => {
                                         'Test::MinimumVersion' => '0',
                                         'Dist::Zilla::Plugin::InlineFiles' => '0',
